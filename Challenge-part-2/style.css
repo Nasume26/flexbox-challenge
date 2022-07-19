@@ -50,18 +50,16 @@ main {
     
 }
 
-main ul {
-    padding-left: 3vw;
-}
 
-.panel, .right{
+
+.panel , .right{
     border: 2px solid black;
 
 }
 
 .panel {
-    padding: 2vh;
-    padding-right: 50vw;
+    padding: 20px;
+    padding-right: 500px;
     margin: 10px;
 }
 
@@ -73,3 +71,26 @@ main ul {
 .right > p {
     text-align: justify;
 }
+
+
+#left {
+    display: flex;
+    flex-direction: column;
+}
+
+.panel p {
+    padding: 60%;
+    background-color: black;
+    color: white;
+}
+
+.panel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.panel div {}
+
+}
+
