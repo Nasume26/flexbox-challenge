@@ -34,3 +34,33 @@ nav > h1 {
     padding-bottom: 1vh;
 }
 
+main {
+    height: 500px;
+    display: flex;
+    margin: 25px auto;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    
+    
+}
+
+.panel, .right{
+    border: 2px solid black;
+
+}
+
+.panel {
+    padding: 2vh;
+    padding-right: 50vw;
+    margin: 10px;
+}
+
+.right {
+    height: 38vh;
+    padding: 2%;
+}
+
+.right > p {
+    text-align: justify;
+}
