@@ -46,8 +46,6 @@ main {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    
-    
 }
 
 
@@ -59,13 +57,15 @@ main {
 
 .panel {
     padding: 20px;
-    padding-right: 500px;
+    padding-right: 250px;
     margin: 10px;
 }
 
 .right {
     height: 38vh;
     padding: 2%;
+    margin-left: 300px;
+    
 }
 
 .right > p {
@@ -77,22 +77,32 @@ main {
     display: flex;
     flex-direction: column;
     padding: 1%;
+    margin: 1%;
 }
 
 .panel p {
-    padding: 80%;
+    padding: 20px;
     background-color: black;
     color: white;
     border: 2px solid brown;
+    margin: 5px;
 }
 
- #did1 {
+.panel{
     display: flex;
-    flex-direction: row;
+    height: 50%;
+    width: 100%;
     justify-content: space-between;
 }
 
-.panel, .panel p{
-    display: flex;
-    justify-content: space-around;
+#divd1 {
+    justify-content:space-around;
+}
+
+#divd2 {
+    justify-content: flex-end;
+}
+#divd3 {
+    flex-direction: row-reverse;
+    justify-content:flex-end;
 }
