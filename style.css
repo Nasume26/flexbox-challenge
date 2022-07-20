@@ -85,7 +85,7 @@ main {
     max-width: 100%;
 }
 
-@media (max-width: 800px) {
+@media screen and (max-width: 800px) {
     .top-4, .bottom-4 {
       flex-wrap:wrap;
     }
@@ -103,6 +103,9 @@ main {
     }
     nav img {
         max-width: 20%;
+    }
+    .search-bar, .search-bar *{
+        font-size: 10px;
     }
   }
 
