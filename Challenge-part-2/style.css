@@ -64,7 +64,7 @@ main {
 .right {
     height: 38vh;
     padding: 2%;
-    margin-left: 300px;
+    margin-left: 20px;
     
 }
 
@@ -91,8 +91,11 @@ main {
 .panel{
     display: flex;
     height: 50%;
-    width: 100%;
+    width: 55vw;
     justify-content: space-between;
+    padding: 0;
+    margin-top: 25px;
+    margin-right: 0;
 }
 
 #divd1 {
