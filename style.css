@@ -108,4 +108,9 @@ main {
         font-size: 10px;
     }
   }
+  @media screen and (max-width: 320px) {
+    .search-bar *{
+        font-size: 8px;
+    }
+  }
 
