@@ -89,8 +89,10 @@ main {
     .top-4, .bottom-4 {
       flex-wrap:wrap;
     }
-    .top-4, .bottom-4 div{
+    .top-4, .bottom-4 {
       flex: 0 0 100%;
-      text-align:right;
+      text-align:center;
+      align-items: center;
+      justify-content: center;
     }
   }
