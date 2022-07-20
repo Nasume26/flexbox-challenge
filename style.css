@@ -59,3 +59,38 @@ nav > h1 {
     justify-content: Space-between;
     padding-top: 10px;
 }
+
+
+main {
+    border: 2px solid black;
+    display:flex;
+    flex-direction: column;
+
+
+}
+
+.top-4, .bottom-4 {
+    padding: 5%;
+    display: flex;
+}
+
+.card {
+    border: 2px solid black;
+    width: 25%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.card img {
+    max-width: 100%;
+}
+
+@media (max-width: 800px) {
+    .top-4, .bottom-4 {
+      flex-wrap:wrap;
+    }
+    .top-4, .bottom-4 div{
+      flex: 0 0 100%;
+      text-align:right;
+    }
+  }
