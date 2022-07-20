@@ -50,43 +50,12 @@ nav > h1 {
     padding-left: 15px;
 }
 
+.search-bar form {
+    padding-right: 10vw;
+}
+
 .search-bar {
     display: flex;
     justify-content: Space-between;
     padding-top: 10px;
-}
-
-main {
-    height: 500px;
-    display: flex;
-    margin: 25px auto;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    
-    
-}
-
-main ul {
-    padding-left: 3vw;
-}
-
-.panel, .right{
-    border: 2px solid black;
-
-}
-
-.panel {
-    padding: 2vh;
-    padding-right: 50vw;
-    margin: 10px;
-}
-
-.right {
-    height: 38vh;
-    padding: 2%;
-}
-
-.right > p {
-    text-align: justify;
 }
