@@ -98,6 +98,10 @@ main {
     nav * {
         font-size: 10%;
     }
+    nav #link-2 {
+        font-size: 12px;
+    }
+
     nav {
         height: 20%;
     }
@@ -109,7 +113,7 @@ main {
     }
   }
   @media screen and (max-width: 320px) {
-    .search-bar *{
+    .search-bar *, .search-bar{
         font-size: 8px;
     }
     .card p {
