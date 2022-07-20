@@ -95,4 +95,14 @@ main {
       align-items: center;
       justify-content: center;
     }
+    nav * {
+        font-size: 10%;
+    }
+    nav {
+        height: 20%;
+    }
+    nav img {
+        max-width: 20%;
+    }
   }
+
