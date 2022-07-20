@@ -45,6 +45,17 @@ nav > h1 {
     font-family: 'Montserrat', sans-serif;
 }
 
+.search-bar img {
+    max-width: 20px;
+    padding-left: 15px;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: Space-between;
+    padding-top: 10px;
+}
+
 main {
     height: 500px;
     display: flex;
